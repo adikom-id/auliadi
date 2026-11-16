@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auliadi, S.Pd., CHt. | Pendidik, Praktisi Hipnoterapis & Digital Creator</title>
+    <meta name="description" content="Profil resmi Auliadi, S.Pd., CHt. - Pendidik, Praktisi Hipnoterapis, serta Founder PipitPintar & Adikom.">
+    
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 Free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        },
+                        accent: {
+                            500: '#10b981',
+                            600: '#059669',
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(16px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Mencegah horizontal scroll dan memperhalus tampilan */
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .glass-card {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Dekorasi Latar Belakang Halus -->
+    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute -top-24 -left-24 w-72 h-72 sm:w-96 sm:h-96 bg-blue-500/10 dark:bg-blue-500/15 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/3 -right-24 w-72 h-72 sm:w-96 sm:h-96 bg-emerald-500/10 dark:bg-emerald-500/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <!-- Container Utama (Mobile-First Centered) -->
+    <main class="max-w-lg mx-auto px-4 sm:px-6 pt-6 pb-16 min-h-screen flex flex-col justify-between">
+        
+        <div>
+            <!-- Top Action Bar (Share & Dark Mode Toggle) -->
+            <header class="flex items-center justify-between mb-6 animate-fade-in-up">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 text-slate-600 dark:text-slate-300 shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Tersedia untuk Kolaborasi
+                </span>
+
+                <div class="flex items-center gap-2">
+                    <!-- Tombol Bagikan Profil -->
+                    <button id="shareBtn" aria-label="Bagikan Profil" class="p-2.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-300 dark:hover:border-blue-700 shadow-sm transition-all active:scale-95">
+                        <i class="fa-solid fa-share-nodes text-sm"></i>
+                    </button>
+
+                    <!-- Tombol Toggle Dark/Light Mode -->
+                    <button id="themeToggle" aria-label="Ubah Tema Tampilan" class="p-2.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:text-amber-500 dark:hover:text-amber-400 hover:border-slate-300 dark:hover:border-slate-700 shadow-sm transition-all active:scale-95">
+                        <i id="themeIcon" class="fa-solid fa-moon text-sm"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Bagian Profil Utama -->
+            <section class="text-center mb-8 animate-fade-in-up" style="animation-delay: 0.05s;">
+                <!-- Foto Profil dengan Ring Gradien -->
+                <div class="relative inline-block mb-4">
+                    <div class="w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1 bg-gradient-to-tr from-slate-800 via-blue-600 to-emerald-400 dark:from-slate-300 dark:via-blue-500 dark:to-emerald-400 shadow-lg">
+                        <img 
+                            src="FA64CE43-0B85-474E-BEBC-99BC130EE342.png" 
+                            onerror="this.onerror=null;this.src='https://placehold.co/300x300/1e293b/f8fafc?text=Auliadi';"
+                            alt="Foto Profil Auliadi, S.Pd., CHt." 
+                            class="w-full h-full object-cover object-top rounded-full border-4 border-slate-50 dark:border-slate-950"
+                        >
+                    </div>
+                    <!-- Lencana Verifikasi -->
+                    <div title="Terverifikasi" class="absolute bottom-1 right-1 w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center border-2 border-slate-50 dark:border-slate-950 shadow-md">
+                        <i class="fa-solid fa-check text-xs"></i>
+                    </div>
+                </div>
+
+                <!-- Nama & Gelar -->
+                <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-1.5">
+                    Auliadi, S.Pd., CHt.
+                </h1>
+
+                <!-- Tagline / Profesi -->
+                <p class="text-sm sm:text-base font-medium text-blue-600 dark:text-blue-400 mb-3">
+                    Pendidik • Praktisi Hipnoterapis • Digital Creator
+                </p>
+
+                <!-- Bio Singkat -->
+                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed max-w-md mx-auto mb-5">
+                    Founder <strong class="text-slate-800 dark:text-slate-200">PipitPintar</strong> & <strong class="text-slate-800 dark:text-slate-200">Adikom</strong>. Membantu pelajar, pendidik, dan kreator bertumbuh melalui edukasi digital, komunikasi efektif, serta solusi kreatif.
+                </p>
+
+                <!-- Ikon Media Sosial -->
+                <div class="flex items-center justify-center gap-3 mb-6">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-pink-500 hover:text-white hover:border-pink-500 dark:hover:bg-pink-600 transition-all shadow-sm hover:-translate-y-0.5">
+                        <i class="fa-brands fa-instagram text-base"></i>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-900 hover:text-white hover:border-slate-900 dark:hover:bg-white dark:hover:text-slate-900 transition-all shadow-sm hover:-translate-y-0.5">
+                        <i class="fa-brands fa-tiktok text-base"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-red-600 hover:text-white hover:border-red-600 transition-all shadow-sm hover:-translate-y-0.5">
+                        <i class="fa-brands fa-youtube text-base"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-all shadow-sm hover:-translate-y-0.5">
+                        <i class="fa-brands fa-linkedin-in text-base"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-800 hover:text-white hover:border-slate-800 transition-all shadow-sm hover:-translate-y-0.5">
+                        <i class="fa-brands fa-github text-base"></i>
+                    </a>
+                </div>
+
+                <!-- Tombol Aksi Cepat (WhatsApp & Salin Kontak) -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <a href="https://wa.me/6285753987438?text=Halo%20Pak%20Auliadi,%20saya%20mengunjungi%20profil%20Anda%20dan%20ingin%20berdiskusi." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2.5 py-3 px-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm shadow-md shadow-emerald-600/20 transition-all active:scale-[0.98]">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Hubungi WhatsApp</span>
+                    </a>
+
+                    <button id="copyContactBtn" data-copy="085753987438" class="flex items-center justify-center gap-2.5 py-3 px-4 rounded-2xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-800 font-semibold text-sm shadow-sm transition-all active:scale-[0.98]">
+                        <i class="fa-regular fa-copy text-base text-blue-600 dark:text-blue-400"></i>
+                        <span>Salin No. Kontak</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Daftar Tautan & Layanan Unggulan -->
+            <section class="space-y-3.5 mb-8 animate-fade-in-up" style="animation-delay: 0.1s;">
+                <div class="flex items-center justify-between px-1 mb-2">
+                    <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">
+                        Karya, Platform & Layanan
+                    </h2>
+                    <span class="text-xs text-slate-400 dark:text-slate-500">4 Tautan Utama</span>
+                </div>
+
+                <!-- Card 1: PipitPintar Edukasi -->
+                <a href="#pipitpintar" onclick="openDetailModal('PipitPintar Edukasi', 'Platform media pembelajaran interaktif, bank soal digital, dan modul edukasi modern untuk siswa serta guru.', 'https://example.com/pipitpintar'); return false;" class="group block p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 glass-card border border-slate-200/90 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-500 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                            <i class="fa-solid fa-graduation-cap text-xl"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center gap-2">
+                                <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                    PipitPintar Edukasi
+                                </h3>
+                                <span class="px-2 py-0.5 text-[10px] font-bold uppercase rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300">
+                                    Utama
+                                </span>
+                            </div>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 truncate mt-0.5">
+                                Portal belajar interaktif, kuis & media ajar digital
+                            </p>
+                        </div>
+                        <div class="text-slate-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 group-hover:translate-x-1 transition-all">
+                            <i class="fa-solid fa-chevron-right text-sm"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 2: Adikom Photography & Jasa Digital -->
+                <a href="#adikom" onclick="openDetailModal('Adikom Photography & Jasa Digital', 'Layanan fotografi profesional, dokumentasi acara, desain grafis, serta pembuatan website profil untuk personal maupun instansi.', 'https://example.com/adikom'); return false;" class="group block p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 glass-card border border-slate-200/90 dark:border-slate-800 hover:border-amber-500 dark:hover:border-amber-500 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                            <i class="fa-solid fa-camera-retro text-xl"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base truncate group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                                Adikom Photography & Jasa Digital
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 truncate mt-0.5">
+                                Dokumentasi visual, desain kreatif & pengembangan web
+                            </p>
+                        </div>
+                        <div class="text-slate-400 group-hover:text-amber-600 dark:group-hover:text-amber-400 group-hover:translate-x-1 transition-all">
+                            <i class="fa-solid fa-chevron-right text-sm"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 3: Praktisi Hipnoterapis -->
+                <a href="#hipnoterapi" onclick="openDetailModal('Sesi Konseling & Praktisi Hipnoterapis', 'Pendampingan terapi relaksasi pikiran, pengelolaan stres, pemulihan trauma ringan, serta pemberdayaan mental dan kebiasaan positif.', 'https://wa.me/6285753987438?text=Halo%20Pak%20Auliadi,%20saya%20tertarik%20untuk%20berkonsultasi%20terkait%20layanan%20Praktisi%20Hipnoterapis.'); return false;" class="group block p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 glass-card border border-slate-200/90 dark:border-slate-800 hover:border-purple-500 dark:hover:border-purple-500 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-50 dark:bg-purple-950/50 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                            <i class="fa-solid fa-brain text-xl"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base truncate group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                                Praktisi Hipnoterapis
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 truncate mt-0.5">
+                                Sesi relaksasi pikiran, pengelolaan stres & pemberdayaan diri
+                            </p>
+                        </div>
+                        <div class="text-slate-400 group-hover:text-purple-600 dark:group-hover:text-purple-400 group-hover:translate-x-1 transition-all">
+                            <i class="fa-solid fa-chevron-right text-sm"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 4: Modul & Aplikasi Edukasi -->
+                <a href="#modul" onclick="openDetailModal('Katalog Modul & Aplikasi Edukasi', 'Kumpulan e-book panduan belajar, template perangkat ajar guru, serta aplikasi web ringan siap pakai.', 'https://example.com/katalog-modul'); return false;" class="group block p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 glass-card border border-slate-200/90 dark:border-slate-800 hover:border-emerald-500 dark:hover:border-emerald-500 shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                            <i class="fa-solid fa-layer-group text-xl"></i>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-slate-900 dark:text-white text-sm sm:text-base truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                                Modul & Aplikasi Edukasi
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 truncate mt-0.5">
+                                Unduh perangkat ajar, e-book & aplikasi web interaktif
+                            </p>
+                        </div>
+                        <div class="text-slate-400 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 group-hover:translate-x-1 transition-all">
+                            <i class="fa-solid fa-chevron-right text-sm"></i>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <!-- Kartu Highlight / Sorotan Singkat -->
+            <section class="p-5 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-900 dark:to-slate-800/80 text-white border border-slate-700/60 shadow-lg animate-fade-in-up" style="animation-delay: 0.15s;">
+                <div class="flex items-start justify-between gap-4">
+                    <div>
+                        <span class="inline-block px-2.5 py-1 rounded-lg bg-white/10 text-sky-300 text-[11px] font-semibold mb-2">
+                            Undangan & Narasumber
+                        </span>
+                        <h3 class="font-bold text-base sm:text-lg mb-1">
+                            Workshop Pendidikan & Digital
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4">
+                            Tersedia untuk mengisi seminar, pelatihan pemanfaatan AI & teknologi pendidikan, maupun sesi motivasi siswa/guru.
+                        </p>
+                        <a href="https://wa.me/6285753987438?text=Halo%20Pak%20Auliadi,%20kami%20ingin%20mengundang%20Anda%20sebagai%20narasumber." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 px-4 py-2.5 rounded-xl transition-colors">
+                            <span>Ajukan Jadwal</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-10 pt-6 border-t border-slate-200/80 dark:border-slate-800/80 text-center">
+            <p class="text-xs text-slate-500 dark:text-slate-400">
+                &copy; <span id="currentYear"></span> <strong>Auliadi, S.Pd., CHt.</strong> • PipitPintar & Adikom.
+            </p>
+            <p class="text-[11px] text-slate-400 dark:text-slate-500 mt-1">
+                Dibuat ringan & responsif untuk semua perangkat.
+            </p>
+        </footer>
+    </main>
+
+    <!-- Modal Preview Detail Tautan (Pengganti alert/popup standar) -->
+    <div id="detailModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/60 backdrop-blur-sm transition-opacity">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl max-w-sm w-full p-6 shadow-2xl transform transition-all">
+            <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-lg bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 text-xs font-bold">
+                    Informasi Layanan
+                </span>
+                <button onclick="closeDetailModal()" aria-label="Tutup Modal" class="w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-slate-800 dark:hover:text-white flex items-center justify-center transition-colors">
+                    <i class="fa-solid fa-xmark text-sm"></i>
+                </button>
+            </div>
+            <h3 id="modalTitle" class="text-lg font-extrabold text-slate-900 dark:text-white mb-2">Judul Layanan</h3>
+            <p id="modalDesc" class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-5">Deskripsi lengkap layanan.</p>
+            <div class="flex items-center gap-2.5">
+                <button onclick="closeDetailModal()" class="flex-1 py-2.5 px-4 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-sm font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+                    Tutup
+                </button>
+                <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold text-center shadow-md shadow-blue-600/20 transition-colors">
+                    Kunjungi <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification (Notifikasi Halus di Bawah Layar) -->
+    <div id="toast" class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 pointer-events-none opacity-0 translate-y-4 transition-all duration-300">
+        <div class="flex items-center gap-2.5 px-4 py-3 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-xs sm:text-sm font-semibold shadow-xl">
+            <i class="fa-solid fa-circle-check text-emerald-400 dark:text-emerald-600 text-base"></i>
+            <span id="toastMessage">Berhasil disalin!</span>
+        </div>
+    </div>
+
+    <!-- Vanilla JavaScript untuk Interaktivitas -->
+    <script>
+        // 1. Set Tahun Otomatis di Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // 2. Pengaturan Dark / Light Mode
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const htmlElement = document.documentElement;
+
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                htmlElement.classList.add('dark');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                htmlElement.classList.remove('dark');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        }
+
+        // Cek preferensi tersimpan atau preferensi sistem
+        const savedTheme = localStorage.getItem('bio-theme');
+        if (savedTheme) {
+            applyTheme(savedTheme);
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            applyTheme('dark');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = htmlElement.classList.contains('dark');
+            const newTheme = isDark ? 'light' : 'dark';
+            applyTheme(newTheme);
+            localStorage.setItem('bio-theme', newTheme);
+            showToast(newTheme === 'dark' ? 'Mode Gelap diaktifkan' : 'Mode Terang diaktifkan');
+        });
+
+        // 3. Fungsi Toast Notification
+        let toastTimeout;
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toastMessage');
+            toastMessage.textContent = message;
+
+            toast.classList.remove('opacity-0', 'translate-y-4');
+            toast.classList.add('opacity-100', 'translate-y-0');
+
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.remove('opacity-100', 'translate-y-0');
+                toast.classList.add('opacity-0', 'translate-y-4');
+            }, 2600);
+        }
+
+        // 4. Fungsi Salin Teks ke Clipboard (Kompatibel iFrame & Mobile)
+        function copyToClipboard(text, successMsg) {
+            const tempInput = document.createElement('input');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            try {
+                document.execCommand('copy');
+                showToast(successMsg);
+            } catch (err) {
+                showToast('Gagal menyalin teks.');
+            }
+            document.body.removeChild(tempInput);
+        }
+
+        // Tombol Salin Nomor Kontak
+        const copyContactBtn = document.getElementById('copyContactBtn');
+        copyContactBtn.addEventListener('click', () => {
+            const phoneNumber = copyContactBtn.getAttribute('data-copy');
+            copyToClipboard(phoneNumber, 'Nomor WhatsApp (' + phoneNumber + ') disalin!');
+        });
+
+        // 5. Tombol Bagikan Profil (Web Share API dengan Fallback Salin Link)
+        const shareBtn = document.getElementById('shareBtn');
+        shareBtn.addEventListener('click', async () => {
+            const shareData = {
+                title: 'Profil Auliadi, S.Pd., CHt.',
+                text: 'Kunjungi halaman profil dan layanan Auliadi, S.Pd., CHt. (PipitPintar & Adikom)',
+                url: window.location.href
+            };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                } catch (err) {
+                    // Pengguna membatalkan share
+                }
+            } else {
+                copyToClipboard(window.location.href, 'Tautan profil berhasil disalin!');
+            }
+        });
+
+        // 6. Modal Detail Layanan
+        const detailModal = document.getElementById('detailModal');
+        function openDetailModal(title, desc, url) {
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('modalDesc').textContent = desc;
+            document.getElementById('modalLink').href = url;
+            detailModal.classList.remove('hidden');
+            detailModal.classList.add('flex');
+        }
+
+        function closeDetailModal() {
+            detailModal.classList.add('hidden');
+            detailModal.classList.remove('flex');
+        }
+
+        // Tutup modal jika area luar diklik
+        detailModal.addEventListener('click', (e) => {
+            if (e.target === detailModal) {
+                closeDetailModal();
+            }
+        });
+    </script>
+</body>
+</html>
